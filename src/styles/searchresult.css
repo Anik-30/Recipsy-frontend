@@ -1,0 +1,115 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(108, 84, 84, 0.9), rgba(69, 52, 52, 0.35)),
+    url(../image/home.jpg) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.home .content {
+  max-width: 60rem;
+}
+
+.home span {
+  color: #ffc107;
+  text-transform: uppercase;
+}
+
+
+.home .content h3 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home .content p {
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.heading{
+  text-align: center;
+  color: #000;
+  padding-bottom: 3.5rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.heading span{
+  color: #ffc107;
+  text-transform: uppercase;
+}
+
+
+.box-container {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  gap: 20px; /* Gap between cards */
+}
+
+.menu .box-container .box {
+  padding: 2rem;
+  text-align: center;
+  border: 0.2rem solid #ffc107;
+  background-color: #fff; /* Set a background color */
+  border-radius: 1rem; /* Add rounded corners */
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transitions */
+}
+
+.menu .box-container .box img {
+  height: 8rem;
+  width: 8rem; /* Set a fixed width */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 50%;
+}
+
+.menu .box-container .box h3 {
+  color: #000;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  margin: 0; /* Remove default margin */
+}
+.menu .box-container .box h8 {
+  color: #000;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  margin: 0; /* Remove default margin */
+} 
+
+.menu .box-container .box:hover {
+  background: #443300;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  transform: translateY(-0.2rem); 
+}
+
+
+
+
+
+
+.star-rating {
+font-size: 24px;
+color: #ffd700;
+}
+
+
+.like-dislike {
+
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+.like-icon,
+.dislike-icon {
+margin: 5px 5px 5px;
+color: #007bff; 
+}
